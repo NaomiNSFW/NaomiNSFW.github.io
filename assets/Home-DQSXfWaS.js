@@ -1,0 +1,1 @@
+import{r as o,j as t,C as c,B as i,h as l}from"./index-BQSVfR9G.js";function d(){const[e,n]=o.useState(""),a=async()=>{try{const r=await l("testFunction")();n(r.data.message)}catch(s){console.error("Error calling function:",s)}};return t.jsxs(c,{children:[t.jsx(i,{onClick:a,variant:"secondary",children:"Send Test Request"}),t.jsx("p",{children:e})]})}export{d as default};
